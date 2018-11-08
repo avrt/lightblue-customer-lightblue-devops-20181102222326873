@@ -1,11 +1,20 @@
+#applications:
+#- path: build/libs/lightblue-customer-0.0.1.jar
+#  memory: 256M
+#  instances: 1
+#  #domain: mybluemix.net
+#  disk_quota: 1024M
+#  services:
+#  - lightblue-cloudant
+#  routes:
+#  - route: lightblue-customer-varaprasadaraoagmailcom.mybluemix.net
+ 
+ 
 applications:
 - path: build/libs/lightblue-customer-0.0.1.jar
   memory: 256M
   instances: 1
-  #domain: mybluemix.net
+  domain: mybluemix.net
   disk_quota: 1024M
   services:
   - lightblue-cloudant
-  routes:
-  - route: lightblue-customer-varaprasadaraoagmailcom.mybluemix.net
- 
